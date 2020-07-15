@@ -8,7 +8,7 @@ import './App.css';
 import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import PortfolioPage from './components/PortfolioPage';
-import ContactPage from './components/ContactPage';
+import NewContactPage from './components/NewContactPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -60,7 +60,7 @@ class App extends React.Component {
           <Switch>
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} subText={this.state.home.subText} />} />
             <Route path="/portfolio" exact render={() => <PortfolioPage title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />} />
-            <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subText={this.state.contact.subText} />} />
+            <Route path="/contact" exact render={() => <NewContactPage title={this.state.contact.title} subText={this.state.contact.subText} />} />
           </Switch>
           <Footer />
 

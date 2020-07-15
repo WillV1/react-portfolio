@@ -7,7 +7,7 @@ import Carousel from './Carousel';
 function PortfolioPage (props) {
 
     return (
-            <div>
+            <div className="background">
             <Hero title={props.title} subTitle={props.subTitle}/>
             <Carousel />
             </div>

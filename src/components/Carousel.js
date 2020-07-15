@@ -11,8 +11,6 @@ import burger from '../assets/images/burger.png';
 import tourzing from '../assets/images/tourzing.PNG';
 import note from '../assets/images/note.PNG';
 
-// import Card from './Card';
-
 
 class Carousel extends React.Component {
 

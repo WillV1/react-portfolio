@@ -37,3 +37,28 @@ code {
   font-size: 16px;
   margin: 0px;
 }
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+
+.my-pic {
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  box-shadow: 0px 0px 15px 1px #ccc;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.background {
+  background-image: url(./assets/images/background.jpg);
+}
