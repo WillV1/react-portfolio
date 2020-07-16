@@ -4,7 +4,7 @@ import Hero from './Hero';
 import Carousel from './Carousel';
 
 
-function PortfolioPage (props) {
+function BootcampProjects (props) {
 
     return (
             <div className="background">
@@ -17,4 +17,4 @@ function PortfolioPage (props) {
 
 }
 
-export default PortfolioPage;
+export default BootcampProjects;

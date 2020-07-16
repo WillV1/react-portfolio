@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.github {
+  color: black;
+}
+
+a.linkedin {
+  color: black;
+}

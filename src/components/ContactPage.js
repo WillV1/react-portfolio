@@ -36,26 +36,6 @@ class ContactPage extends React.Component {
             disabled: true
         })
 
-        // axios.post('http://localhost:3030/api/email', this.state)
-        //     .then(res => {
-        //         if(res.data.success){
-        //         this.setState({
-        //             disabled: false,
-        //             emailSent: true
-        //         });
-        //     } else {
-        //         this.setState({
-        //             disabled: false,
-        //             emailSent: false
-        //         })
-        //     }
-        // })
-        //     .catch(err => {
-        //         this.setState({
-        //             disabled: false,
-        //             emailSent: false
-        //         })
-        //     })
 
         axios.post("https://send.pageclip.co/MbAlv33LmvORp4olJscMmxMY1JY9BlV8").then(function (response) {
             console.log(response);
@@ -69,20 +49,20 @@ class ContactPage extends React.Component {
             <Hero title={this.props.title} subText={this.props.subText}/>
 
             <Content>
-                <Form className="pageclip-form" onSubmit={this.handleSubmit}>
+                <Form action="https://send.pageclip.co/MbAlv33LmvORp4olJscMmxMY1JY9BlV8" className="pageclip-form" method="post" onSubmit={this.handleSubmit}>
                     <Form.Group>
                         <Form.Label htmlFor="full-name">Full Name</Form.Label>
-                        <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
+                        <Form.Control id="full-name" name="name" type="text" value={this.state.name} />
                     </Form.Group>
 
                     <Form.Group>
                         <Form.Label htmlFor="email">Email</Form.Label>
-                        <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
+                        <Form.Control id="email" name="email" type="email" value={this.state.email} />
                     </Form.Group>
 
                     <Form.Group>
                         <Form.Label htmlFor="message">Message</Form.Label>
-                        <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
+                        <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} />
                     </Form.Group>
 
                     <Button className="d-inline-block pageclip-form__submit" variant="primary" type="submit" disabled={this.state.disabled}>
