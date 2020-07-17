@@ -13,13 +13,13 @@ function SocialFollow() {
         <div className="social-container">
             <a
                 href="https://github.com/WillV1"
-                className="github social"
+                className="github social" target="_blank"
             >
                 <FontAwesomeIcon icon={faGithub} size="3x" />
             </a>
             <a
                 href="https://www.linkedin.com/in/williamvanhook/"
-                className="linkedin social"
+                className="linkedin social" target="_blank"
             >
                 <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>

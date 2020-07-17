@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 import Card from './Card';
 
-import weather from '../assets/images/weather.PNG';
+import fitness from '../assets/images/fitness.PNG';
 import planner from '../assets/images/planner.PNG';
 import team from '../assets/images/team.gif';
 import burger from '../assets/images/burger.png';
@@ -20,50 +20,49 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Weather Dashboard',
-                    imgSrc: weather,
-                    gitHubLink: '',
-                    appLink: '',
+                    title: 'Fitness Tracker',
+                    imgSrc: fitness,
+                    gitHubLink: 'https://github.com/WillV1/fitness-tracker',
+                    appLink: 'https://fathomless-everglades-17524.herokuapp.com/?',
                     selected: false
                 },
                 {
                     id: 1,
                     title: 'Work Day Scheduler',
                     imgSrc: planner,
-                    gitHubLink: '',
-                    appLink: '',
+                    gitHubLink: 'https://github.com/WillV1/day-planner',
+                    appLink: 'https://willv1.github.io/day-planner/index.html',
                     selected: false
                 },
                 {
                     id: 2,
                     title: 'Team Generator',
                     imgSrc: team,
-                    gitHubLink: '',
-                    appLink: '',
+                    gitHubLink: 'https://github.com/WillV1/team-generator',
                     selected: false
                 },
                 {
                     id: 3,
                     title: 'Burger',
                     imgSrc: burger,
-                    gitHubLink: '',
-                    appLink: '',
+                    gitHubLink: 'https://github.com/WillV1/burger',
+                    appLink: 'https://blooming-retreat-74825.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 4,
                     title: 'TourZing',
                     imgSrc: tourzing,
-                    gitHubLink: '',
-                    appLink: '',
+                    gitHubLink: 'https://github.com/WillV1/TourZing',
+                    appLink: 'https://degrassi-syrup-05027.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 5,
                     title: 'Note Taker',
                     imgSrc: note,
-                    gitHubLink: '',
-                    appLink: '',
+                    gitHubLink: '"https://github.com/WillV1/note-taker-app',
+                    appLink: 'https://note-taker-wv.herokuapp.com/',
                     selected: false
                 },
                 // {
