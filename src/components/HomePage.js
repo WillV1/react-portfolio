@@ -10,7 +10,7 @@ function HomePage(props) {
         <div className="background">        
             <Hero title={props.title} subTitle={props.subTitle} />
             <Content>
-                <img src={picture} alt='website logo' className="my-pic" />
+                <img src={picture} alt="website logo" className="my-pic" />
                 <h6>Name: William VanHook</h6>
                 <h6>Colleges: University of Virginia; Mulhenberg College; University of North Carolina-Chapel Hill</h6>
                 <h6>Phone Number: (919) 397-3157</h6>
