@@ -4,12 +4,12 @@ import Row from 'react-bootstrap/Row';
 
 import Card from './Card';
 
-import weather from '../assets/images/weather.PNG';
-import planner from '../assets/images/planner.PNG';
-import team from '../assets/images/team.gif';
-import burger from '../assets/images/burger.png';
-import tourzing from '../assets/images/tourzing.PNG';
-import note from '../assets/images/note.PNG';
+import pizza from '../assets/images/pizza.PNG';
+// import planner from '../assets/images/planner.PNG';
+// import team from '../assets/images/team.gif';
+// import burger from '../assets/images/burger.png';
+// import tourzing from '../assets/images/tourzing.PNG';
+// import note from '../assets/images/note.PNG';
 
 
 class MERNCarousel extends React.Component {
@@ -20,60 +20,60 @@ class MERNCarousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Weather Dashboard',
-                    imgSrc: weather,
-                    gitHubLink: '',
-                    appLink: '',
+                    title: 'Sliceline',
+                    imgSrc: pizza,
+                    gitHubLink: 'https://github.com/WillV1/pizza-shop',
+                    // appLink: '',
                     selected: false
                 },
-                {
-                    id: 1,
-                    title: 'Work Day Scheduler',
-                    imgSrc: planner,
-                    gitHubLink: '',
-                    appLink: '',
-                    selected: false
-                },
-                {
-                    id: 2,
-                    title: 'Team Generator',
-                    imgSrc: team,
-                    gitHubLink: '',
-                    appLink: '',
-                    selected: false
-                },
-                {
-                    id: 3,
-                    title: 'Burger',
-                    imgSrc: burger,
-                    gitHubLink: '',
-                    appLink: '',
-                    selected: false
-                },
-                {
-                    id: 4,
-                    title: 'TourZing',
-                    imgSrc: tourzing,
-                    gitHubLink: '',
-                    appLink: '',
-                    selected: false
-                },
-                {
-                    id: 5,
-                    title: 'Note Taker',
-                    imgSrc: note,
-                    gitHubLink: '',
-                    appLink: '',
-                    selected: false
-                },
-                {
-                    id: 0,
-                    title: 'HomeMade',
-                    imgSrc: '',
-                    gitHubLink: '',
-                    appLink: '',
-                    selected: false
-                },
+                // {
+                //     id: 1,
+                //     title: 'Work Day Scheduler',
+                //     imgSrc: planner,
+                //     gitHubLink: '',
+                //     appLink: '',
+                //     selected: false
+                // },
+                // {
+                //     id: 2,
+                //     title: 'Team Generator',
+                //     imgSrc: team,
+                //     gitHubLink: '',
+                //     appLink: '',
+                //     selected: false
+                // },
+                // {
+                //     id: 3,
+                //     title: 'Burger',
+                //     imgSrc: burger,
+                //     gitHubLink: '',
+                //     appLink: '',
+                //     selected: false
+                // },
+                // {
+                //     id: 4,
+                //     title: 'TourZing',
+                //     imgSrc: tourzing,
+                //     gitHubLink: '',
+                //     appLink: '',
+                //     selected: false
+                // },
+                // {
+                //     id: 5,
+                //     title: 'Note Taker',
+                //     imgSrc: note,
+                //     gitHubLink: '',
+                //     appLink: '',
+                //     selected: false
+                // },
+                // {
+                //     id: 0,
+                //     title: 'HomeMade',
+                //     imgSrc: '',
+                //     gitHubLink: '',
+                //     appLink: '',
+                //     selected: false
+                // },
             ]
 
         }
