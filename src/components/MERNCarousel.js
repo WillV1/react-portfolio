@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 import Card from './Card';
 
-import pizza from '../assets/images/pizza.PNG';
+// import pizza from '../assets/images/pizza.PNG';
 // import planner from '../assets/images/planner.PNG';
 // import team from '../assets/images/team.gif';
 // import burger from '../assets/images/burger.png';
@@ -18,14 +18,14 @@ class MERNCarousel extends React.Component {
         super(props);
         this.state = {
             items: [
-                {
-                    id: 0,
-                    title: 'Sliceline',
-                    imgSrc: pizza,
-                    gitHubLink: 'https://github.com/WillV1/pizza-shop',
-                    // appLink: '',
-                    selected: false
-                },
+                // {
+                //     id: 0,
+                //     title: 'Sliceline',
+                //     imgSrc: pizza,
+                //     gitHubLink: 'https://github.com/WillV1/pizza-shop',
+                //     // appLink: '',
+                //     selected: false
+                // },
                 // {
                 //     id: 1,
                 //     title: 'Work Day Scheduler',
