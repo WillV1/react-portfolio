@@ -23,7 +23,7 @@ class MERNCarousel extends React.Component {
                     title: 'City Tour',
                     imgSrc: tour,
                     gitHubLink: 'https://github.com/WillV1/city-tour',
-                    appLink: '',
+                    appLink: 'https://city-tour-wv.herokuapp.com/',
                     selected: false
                 },
                 // {

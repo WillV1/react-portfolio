@@ -10,7 +10,6 @@ function MERNProjects (props) {
             <div className="background">
             <Hero title={props.title} subTitle={props.subTitle}/>
             <MERNCarousel />
-            <p>Coming Soon</p>
             </div>
 
     )
