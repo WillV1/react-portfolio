@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Card from './Card';
 
 import fitness from '../assets/images/fitness.PNG';
-import planner from '../assets/images/planner.PNG';
+import employee from '../assets/images/employee.PNG';
 import team from '../assets/images/team.gif';
 import burger from '../assets/images/burger.png';
 import tourzing from '../assets/images/tourzing.PNG';
@@ -28,10 +28,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'Work Day Scheduler',
-                    imgSrc: planner,
-                    gitHubLink: 'https://github.com/WillV1/day-planner',
-                    appLink: 'https://willv1.github.io/day-planner/index.html',
+                    title: 'Employee Directory',
+                    imgSrc: employee,
+                    gitHubLink: 'https://github.com/WillV1/employee-directory',
+                    appLink: 'https://willv1.github.io/employee-directory/',
                     selected: false
                 },
                 {
