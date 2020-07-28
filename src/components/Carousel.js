@@ -61,7 +61,7 @@ class Carousel extends React.Component {
                     id: 5,
                     title: 'Day Planner',
                     imgSrc: planner,
-                    gitHubLink: '"https://github.com/WillV1/day-planner',
+                    gitHubLink: 'https://github.com/WillV1/day-planner',
                     appLink: 'https://willv1.github.io/day-planner/index.html',
                     selected: false
                 },
