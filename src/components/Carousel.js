@@ -9,7 +9,7 @@ import employee from '../assets/images/employee.PNG';
 import team from '../assets/images/team.gif';
 import burger from '../assets/images/burger.png';
 import tourzing from '../assets/images/tourzing.PNG';
-import note from '../assets/images/note.PNG';
+import planner from '../assets/images/planner.PNG';
 
 
 class Carousel extends React.Component {
@@ -59,10 +59,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 5,
-                    title: 'Note Taker',
-                    imgSrc: note,
-                    gitHubLink: '"https://github.com/WillV1/note-taker-app',
-                    appLink: 'https://note-taker-wv.herokuapp.com/',
+                    title: 'Day Planner',
+                    imgSrc: planner,
+                    gitHubLink: '"https://github.com/WillV1/day-planner',
+                    appLink: 'https://willv1.github.io/day-planner/index.html',
                     selected: false
                 },
                 // {

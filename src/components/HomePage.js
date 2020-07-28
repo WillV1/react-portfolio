@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Content from './Content';
 
 import picture from '../assets/images/picture.jpg';
+import resume from './assets/resume/resume.pdf';
 
 function HomePage(props) {
 
@@ -15,7 +16,7 @@ function HomePage(props) {
                 <h6>Colleges: University of Virginia; Mulhenberg College; University of North Carolina-Chapel Hill</h6>
                 <h6>Phone Number: (919) 397-3157</h6>
                 <h6>Email Address: <a href={"mailto:wmvanhook@gmail.com"}>wmvanhook@gmail.com</a></h6>
-                <h6>My Resume: <a href="../assets/resume/WVResume.pdf" target="_blank" title="Download My Resume"></a></h6>
+                <a href={resume} target="_blank" title="Download My Resume"><h6>My Resume</h6></a>
                 <p>I am a Front End Web Developer with a background in accounting and education. I earned a certificate in Full-Stack Development from the University of North Carolina-Chapel Hill, where I developed proficiency in React, Node/Express, MongoDB, JavaScript and HTML5/CSS3.</p>
                 <p>I am a methodical problem solver passionate about developing apps, with a focus on mobile-first design and development. My degrees in accounting and history have prepared me to approach problems with focus and a team-first attitude.</p>
                 <p>With each project, I aim to understand how to best engage users for an impactful user experience.</p>
